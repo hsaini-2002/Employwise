@@ -69,20 +69,7 @@ Usage
 	4.	Delete User:
 	•	Click “Delete” to remove a user from the list.
 
-Screenshots
-
-You can include a screenshot of the app in action here. You can take a screenshot and upload it to your repository or link to an image URL.
 
 GitHub Repository
 
 You can access the repository on GitHub here.
-
-Contributions
-
-Feel free to fork the repository and submit pull requests with improvements or bug fixes. Please make sure to follow the proper Git workflow and include clear commit messages.
-
-License
-
-This project is open-source and available under the MIT License.
-
-You can customize the details such as the GitHub repository URL or other specific instructions as needed. Save this file as README.md in the root of your project directory. Let me know if you need any further modifications!
