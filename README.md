@@ -1,7 +1,3 @@
-Here’s a sample README.md file for your project:
-
-EmployWise - React Application
-
 This is a React application for basic user management functionalities integrated with the Reqres API. The app provides authentication, a paginated list of users, and options to edit, delete, and update user details. The application is designed to demonstrate the use of React, React Router, Axios for API calls, and GitHub for version control.
 
 Features
