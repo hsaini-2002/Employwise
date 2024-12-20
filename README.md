@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+Here’s a sample README.md file for your project:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+EmployWise - React Application
 
-## Available Scripts
+This is a React application for basic user management functionalities integrated with the Reqres API. The app provides authentication, a paginated list of users, and options to edit, delete, and update user details. The application is designed to demonstrate the use of React, React Router, Axios for API calls, and GitHub for version control.
 
-In the project directory, you can run:
+Features
+	1.	Authentication Screen:
+	•	Login using predefined credentials.
+	•	Stores the token in local storage and redirects to the user list upon successful login.
+	2.	User List:
+	•	Displays a paginated list of users.
+	•	Each user’s first name, last name, and avatar are shown.
+	•	Users can navigate between different pages of the user list using pagination.
+	3.	Edit, Delete, and Update User:
+	•	Users can edit their details (first name, last name, email).
+	•	Users can delete themselves from the list.
+	•	Both actions trigger respective API calls for update and deletion.
 
-### `npm start`
+Technologies Used
+	•	React: Frontend library for building user interfaces.
+	•	React Router: For handling routing between different pages.
+	•	Axios: To make HTTP requests to the Reqres API.
+	•	CSS: Styling of the components.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+API Endpoints Used
+	1.	Authentication:
+	•	POST /api/login
+	•	Email: eve.holt@reqres.in
+	•	Password: cityslicka
+	•	Stores the token returned upon successful login.
+	2.	User List:
+	•	GET /api/users?page=1 (Paginated User List)
+	3.	Edit User:
+	•	PUT /api/users/{id}
+	4.	Delete User:
+	•	DELETE /api/users/{id}
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Installation
 
-### `npm test`
+To run this project locally, follow these steps:
+	1.	Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+git clone https://github.com/hsaini-2002/Employwise.git
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+	2.	Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+cd Employwise
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+	3.	Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+	4.	Run the application:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm start
 
-## Learn More
+This will start the development server, and you can open the application in your browser at http://localhost:3000.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Usage
+	1.	Authentication:
+	•	On the landing page, enter the provided credentials and click “Login”.
+	•	Upon successful login, you will be redirected to the user list.
+	2.	User List:
+	•	Browse through the list of users.
+	•	Use pagination to view more users.
+	3.	Edit/Update User:
+	•	Click “Edit” next to any user to update their details.
+	•	After editing, click “Save” to update their details.
+	4.	Delete User:
+	•	Click “Delete” to remove a user from the list.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Screenshots
 
-### Code Splitting
+You can include a screenshot of the app in action here. You can take a screenshot and upload it to your repository or link to an image URL.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+GitHub Repository
 
-### Analyzing the Bundle Size
+You can access the repository on GitHub here.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions
 
-### Making a Progressive Web App
+Feel free to fork the repository and submit pull requests with improvements or bug fixes. Please make sure to follow the proper Git workflow and include clear commit messages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+License
 
-### Advanced Configuration
+This project is open-source and available under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can customize the details such as the GitHub repository URL or other specific instructions as needed. Save this file as README.md in the root of your project directory. Let me know if you need any further modifications!
